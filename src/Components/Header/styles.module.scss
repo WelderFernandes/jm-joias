@@ -1,0 +1,14 @@
+.container {
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+
+    padding: 2rem 4rem;
+
+    border-bottom: 1px solid var(--bg-dark);
+
+    span {
+        margin-left: auto;
+        text-transform: capitalize;
+    }
+}
