@@ -9,7 +9,9 @@ function MyApp({ Component, pageProps }) {
       <SideBar />
       <main>
         <Header />
-        <Component {...pageProps} />
+        <div className={styles.container}>
+          <Component {...pageProps} />
+        </div>
       </main>
     </div>
   )

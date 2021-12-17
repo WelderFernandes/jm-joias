@@ -15,6 +15,7 @@ export function SideBar() {
                     objectFit='contain' 
                     alt="Logo" />
             </header>
+
             <div className={styles.content}>
                 <ul className="nav-menu-items">
                     {Data.map((item, index) => {

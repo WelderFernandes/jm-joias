@@ -1,9 +1,9 @@
-import { route } from "next/dist/server/router"
 import { useRouter } from "next/router"
+import styles from './product.module.scss'
 
 export default function Product() {
     const router = useRouter()
     return (
-        <h1>{router.query.slug}</h1>
+            <h1>{router.query.slug}</h1>
     )
 }

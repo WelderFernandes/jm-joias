@@ -9,10 +9,9 @@ export function Header() {
         locale: ptBR,
     });
 
-
     return (
         <header className={styles.container}>
-            <h1>Olá, Seja Bem Vindo</h1>
+            <h1>Olá, Sejá Bem Vindo</h1>
 
             <span>{currentDate}</span>
         </header>
